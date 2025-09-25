@@ -890,7 +890,7 @@ margin-top: 20px;
   margin-top: 50px;
   color: #fff;
   font-size: 14px;
-`,r4=()=>{const u=vl(),c=[];return S.jsxs(a4,{children:[S.jsxs(n4,{children:[S.jsx(u4,{onClick:()=>u(-1),children:S.jsx(no,{size:24})}),S.jsx(i4,{children:"Meus anúncios"})]}),c.length===0?S.jsx(c4,{children:"Você ainda não publicou nenhum anúncio."}):c.map((f,r)=>S.jsx("div",{children:f.titulo},r)),S.jsx(cc,{})]})};function f4(){return S.jsx(K0,{basename:"/furybass",children:S.jsxs(Jv,{children:[S.jsx(sl,{path:"/",element:S.jsx(Qg,{})}),S.jsx(sl,{path:"/register",element:S.jsx($g,{})}),S.jsx(sl,{path:"/recuperacao",element:S.jsx(Ig,{})}),S.jsx(sl,{path:"/veiculos",element:S.jsx(G2,{})}),S.jsx(sl,{path:"/produtos",element:S.jsx(V2,{})}),S.jsx(sl,{path:"/servicos",element:S.jsx(J2,{})}),S.jsx(sl,{path:"/anunciar",element:S.jsx(l4,{})}),S.jsx(sl,{path:"/anuncios",element:S.jsx(r4,{})})]})})}const o4=Tg`
+`,r4=()=>{const u=vl(),c=[];return S.jsxs(a4,{children:[S.jsxs(n4,{children:[S.jsx(u4,{onClick:()=>u(-1),children:S.jsx(no,{size:24})}),S.jsx(i4,{children:"Meus anúncios"})]}),c.length===0?S.jsx(c4,{children:"Você ainda não publicou nenhum anúncio."}):c.map((f,r)=>S.jsx("div",{children:f.titulo},r)),S.jsx(cc,{})]})};function f4(){return S.jsx(K0,{basename:"/furybass",children:S.jsxs(Jv,{children:[S.jsx(sl,{index:!0,element:S.jsx(Qg,{})}),S.jsx(sl,{path:"/register",element:S.jsx($g,{})}),S.jsx(sl,{path:"/recuperacao",element:S.jsx(Ig,{})}),S.jsx(sl,{path:"/veiculos",element:S.jsx(G2,{})}),S.jsx(sl,{path:"/produtos",element:S.jsx(V2,{})}),S.jsx(sl,{path:"/servicos",element:S.jsx(J2,{})}),S.jsx(sl,{path:"/anunciar",element:S.jsx(l4,{})}),S.jsx(sl,{path:"/anuncios",element:S.jsx(r4,{})})]})})}const o4=Tg`
     
     *{
         margin: 0;
