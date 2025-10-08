@@ -22,7 +22,7 @@ export const Title = styled.h2`
   line-height: 44px;
 
 
-  color: #0EA427;
+  color: #b90000ff;
 `;
 
 export const SubTitle = styled.h3`
@@ -35,7 +35,7 @@ export const SubTitle = styled.h3`
   text-align: center;
   margin-bottom: 30px;
 
-  color: #0EA427;
+  color: #b90000ff;
 
 `
 

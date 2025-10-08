@@ -5,6 +5,8 @@ import { SlHeart } from "react-icons/sl";
 import { BiSolidCommentDetail } from "react-icons/bi";
  import CommentsModal from "../CommentsModal";
 import { useState } from "react";
+import  carro  from "../../assets/carro.jpg";
+
 
 import {
   CardContainer,
@@ -31,7 +33,7 @@ const Card = () => {
  
   return (
     <CardContainer>
-      <ImageBackground src="https://picsum.photos/800/200" />
+      <ImageBackground src={carro} alt="Carro" />
 
       <Content>
         {/* <UserInfo> */}

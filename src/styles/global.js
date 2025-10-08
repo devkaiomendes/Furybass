@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        background-color: #1C1920;
+        background-color:  #1C1920  /* #D5D0C4 */;
         color: #E1E1E9;
         font-family: 'Open Sans';
     }

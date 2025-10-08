@@ -78,7 +78,7 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
-  background: #28a745;
+  background: #b90000ff;
   color: #fff;
   border: none;
   padding: 10px 16px;
@@ -86,6 +86,6 @@ export const Button = styled.button`
   cursor: pointer;
 
   &:hover {
-    background: #218838;
+    background: #b90000c7;
   }
 `;

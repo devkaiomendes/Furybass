@@ -8,7 +8,7 @@ export const ButtonContainer = styled.button`
   cursor: pointer;
 
   color: #ffffffff;
-  background: #00a84cff;
+  background: #b90000ff;
   padding: 2px 12px;
   max-width: 380px;
   /* min-width: 170px; */
@@ -23,7 +23,7 @@ export const ButtonContainer = styled.button`
   ${({ variant }) =>
     variant !== "primary" &&
     css`
-      background: #00a84cff;
+      background: #b90000ff;
 
       &:hover {
         opacity: 0.6;
@@ -86,7 +86,7 @@ export const BackButtonContainer = styled.button`
 `;
 
 export const ButtonVer = styled.button`
-  background-color: #00c853;
+  background-color: #b90000ff;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
@@ -98,11 +98,19 @@ export const ButtonVer = styled.button`
   padding: 10px 20px;
   cursor: pointer;
   text-align: center;
-  width: 100%;       /* ocupa toda a largura do card */
+  width: 100%;
 
   transition: background 0.3s;
 
   &:hover {
-    background-color: #00a844;
+    background-color: #b9000086;
   }
 `;
+
+
+
+
+
+
+
+

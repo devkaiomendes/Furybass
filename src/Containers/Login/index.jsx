@@ -37,7 +37,7 @@ const Login = () => {
 
   return (
     <Container>
-      <Title>Furybass</Title>
+      <Title>RevSound</Title>
       <SubTitle>O SEU APP AUTOMOTIVO</SubTitle>
 
       <Input

@@ -94,7 +94,7 @@ export const Price = styled.div`
         font-weight: 700;
         font-size: 16px;
         line-height: 22px;
-        color: #03B152;  /* Verde igual à imagem */
+        color: #b90000ff;
     }
 `;
 
@@ -124,7 +124,7 @@ export const HasInfo = styled.div`
         }
 
         svg:hover {
-            color: #03B152;
+            color: #b90000ff;
         }
 
          h3{

@@ -19,7 +19,7 @@ export const FooterContainer = styled.div`
   }
 
   .nav-item.active {
-    color: #00c853;
+    color: #b90000ff;
   }
 `;
 
@@ -35,13 +35,13 @@ export const FooterItem = styled.div`
   }
 
   &:hover {
-    color: #00c853;
+    color: #b90000ff;
     transition: color 0.3s;
   }
 `;
 
 export const AddButton = styled.div`
-  background: #00c853;
+  background: #b90000ff;
   width: 40px;
   height: 40px;
   border-radius: 50%;

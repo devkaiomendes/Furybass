@@ -9,11 +9,12 @@ import { Servicos } from "./Containers/Servicos";
 import { Anunciar } from "./Containers/Anunciar";
 import { Anuncios } from "./Containers/Anuncios";
 
+
 function App() {
   return (
+   
     <Routes>
-      <Route path="/" element={<Login />} />
-      <Route path="/login" element={<Login />} />
+      <Route index element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/recuperacao" element={<Recuperacao />} />
       <Route path="/veiculos" element={<Veiculos />} />
@@ -22,6 +23,7 @@ function App() {
       <Route path="/anunciar" element={<Anunciar />} />
       <Route path="/anuncios" element={<Anuncios />} />
     </Routes>
+ 
   );
 }
 

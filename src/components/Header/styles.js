@@ -56,7 +56,7 @@ export const MenuButton = styled.div`
 
 
   &:hover {
-    color: #00c853;
+    color: #b90000ff;
     transition: color 0.3s;
   }
 `;
@@ -112,7 +112,7 @@ export const SidebarLink = styled.a`
 
   &:hover {
     background: #333;
-    color: #00c853;
+    color: #b90000ff;
   }
 `;
 
@@ -156,12 +156,12 @@ export const FilterButton = styled.div`
   display: flex;
   align-items: center;
   cursor: pointer;
-  color: #00c853;
+  color: #b90000ff;
   font-size: 18px;
   padding: 2px;
 
   &:hover {
-    color: #00e676;
+    color: #b90000bb;
   }
 `;
 
@@ -180,7 +180,7 @@ export const FilterModal = styled.div`
 
   h3 {
     margin-bottom: 15px;
-    color: #00c853;
+    color: #b90000ff;
   }
 `;
 
@@ -193,54 +193,10 @@ export const FilterOption = styled.div`
 
   &:hover {
     background: #f4f4f4;
-    color: #00c853;
+    color: #b90000ff;
   }
 
   &:last-child {
     border-bottom: none;
   }
 `;
-
-
-
-
-
-/* export const FilterModal = styled.div`
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #fff;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  padding: 20px;
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
-  z-index: 1200;
-  text-align: center;
-
-  h3 {
-    margin-bottom: 15px;
-    color: #00c853;
-  }
-`;
-
-export const FilterOption = styled.div`
-  padding: 12px;
-  font-size: 16px;
-  cursor: pointer;
-  border-bottom: 1px solid #eee;
-  color: #333;
-
-  &:hover {
-    background: #f4f4f4;
-    color: #00c853;
-  }
-
-  &:last-child {
-    border-bottom: none;
-  }
-`;
- */
-
-
-

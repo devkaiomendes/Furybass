@@ -1,18 +1,21 @@
 import styled from "styled-components";
 
 export const InputContainer = styled.div`
-width: 100%;
-max-width: 195px;
-height: 50px;
-background: #d1d0d0ff;
-border-radius: 8px;
-padding: 0 15px;
+  width: 90%; 
+  max-width: clamp(200px, 100%, 300px); 
+  min-width: clamp(200px, 100%, 377px); 
+  height: 50px;
+  background: #d1d0d0ff;
+  border-radius: 8px;
+  padding: 0 15px;
 
-
-display: flex;
-align-items: center;
-margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  box-sizing: border-box;
 `;
+
 
 
 
