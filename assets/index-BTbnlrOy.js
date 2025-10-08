@@ -384,7 +384,7 @@ width: 100%;
   &:hover {
     background: #b90000c7;
   }
-`,c4=({isOpen:t,onClose:e})=>t?v.jsx(t4,{onClick:e,children:v.jsxs(e4,{children:[v.jsx(l4,{children:v.jsx("h2",{children:"Comentários"})}),v.jsx(a4,{children:v.jsx("p",{style:{color:"#77777797"},children:"Sem comentários ainda."})}),v.jsxs(n4,{children:[v.jsx(u4,{type:"text",placeholder:"Digite um comentário..."}),v.jsx(i4,{children:"Enviar"})]})]})}):null,r4="/furybass/assets/carro-ptKaDVvb.jpg",f4=R.div`
+`,c4=({isOpen:t,onClose:e})=>t?v.jsx(t4,{onClick:e,children:v.jsxs(e4,{children:[v.jsx(l4,{children:v.jsx("h2",{children:"Comentários"})}),v.jsx(a4,{children:v.jsx("p",{style:{color:"#77777797"},children:"Sem comentários ainda."})}),v.jsxs(n4,{children:[v.jsx(u4,{type:"text",placeholder:"Digite um comentário..."}),v.jsx(i4,{children:"Enviar"})]})]})}):null,r4="/revsound/assets/carro-ptKaDVvb.jpg",f4=R.div`
     width: 100%;
     /* max-width: 700px; */
     background-color: #1C1920;
