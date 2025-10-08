@@ -925,4 +925,4 @@ margin-top: 20px;
         font-family: 'Open Sans';
     }
 
-`;Iy.createRoot(document.getElementById("root")).render(v.jsx(Tt.StrictMode,{children:v.jsxs(dg,{basename:"/furybass",children:[v.jsx(cb,{}),v.jsx(ib,{})]})}));
+`;Iy.createRoot(document.getElementById("root")).render(v.jsx(Tt.StrictMode,{children:v.jsxs(dg,{basename:"/revsound",children:[v.jsx(cb,{}),v.jsx(ib,{})]})}));
